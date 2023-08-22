@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Didact+Gothic&family=Oxygen&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Didact+Gothic&family=Fjalla+One&family=Oxygen&family=Roboto+Condensed&display=swap');
+
+body{
+    margin: 0;
+    background: rgb(146,96,238);
+background: radial-gradient(circle, rgb(15, 14, 14) 0%, rgb(0, 0, 0) 100%);
+}
+.header-design{
+    width: 100%;
+    height: 80px;
+    background-color: #191919;
+    position: relative;
+    bottom: 26px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+#header-text{
+    position: relative;
+    top: 23px;
+    padding-left: 20px;
+    background-color: #f3ec78;
+    background-color: #f3ec78;
+    background-image: linear-gradient(0deg, #027dc4af, #ff0077);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-family: "Fjalla One";
+    font-size: 30px;
+}
+.navbar{
+    position: fixed;
+    font-family: oxygen;
+    text-decoration: none;
+    color: white;
+    top: 25px;
+    transition: 0.6s;
+}
+#navbar1{
+    right: 270px;
+    padding: 5px;
+}
+#navbar2{
+    right: 180px;
+    padding: 5px;
+}
+#navbar3{
+    right: 120px;
+    padding: 5px;
+}
+#navbar4{
+    right: 20px;
+    padding: 5px;
+}
+#navbar1:hover{
+    transition: 0.6s;
+    background-color: rgba(255, 255, 255, 0.247);
+    border-radius: 6px;
+}
+#navbar2:hover{
+    transition: 0.6s;
+    background-color: rgba(255, 255, 255, 0.247);
+    border-radius: 6px;    
+}
+#navbar3:hover{
+    transition: 0.6s;  
+    background-color: rgba(255, 255, 255, 0.247);
+    border-radius: 6px;   
+}
+#navbar4:hover{
+    transition: 0.6s;
+    background-color: rgba(255, 255, 255, 0.247);
+    border-radius: 6px;    
+}
+.landing-page{
+    width: 800px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #191919;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(255, 0, 179, 0.281);
+    position: relative;
+    top: 90px;
+}
+#first-text{
+    font-family: "Fjalla One";
+    text-decoration: none;
+    
+    text-align: center; 
+    position: relative;
+    top: 10px;
+    background-color: #f3ec78;
+    background-image: linear-gradient(0deg, #027dc4af, #ff0077);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+#description{
+    font-size: 20px;
+    font-family: oxygen;
+    float: left;
+    text-align: center;
+    color: white;
+}
+#desc-button{
+
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eeeeee28;
+    border-radius: 10px;
+    display: block;
+    font-family: "Fjalla One";
+    margin-left: 310px;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+   
+}
+         
+#desc-button:hover {
+
+  }
+
+  #desc-button:hover:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+  }
+#discord-logo{
+    position: fixed;
+    height: 25px;
+    width: 25px;
+    right: 356px;
+    top: 27px;
+}
